@@ -104,7 +104,7 @@
             });
         });
         option = {
-            animationDuration: 1000,
+            animationDuration: 3000,
             dataset: [
                 {
                     id: 'dataset_raw',
