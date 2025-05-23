@@ -105,6 +105,7 @@
         });
         option = {
             animationDuration: 5000,
+            color: ['#1e9dff', '#fa6c3a'],
             dataset: [
                 {
                     id: 'dataset_raw',
