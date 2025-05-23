@@ -82,7 +82,7 @@
                 showSymbol: false,
                 name: country,
                 endLabel: {
-                    show: true,
+                    show: false,
                     formatter: function (params) {
                         //return params.value[3] + ': ' + params.value[0];
                         return params.value[2];
@@ -130,10 +130,13 @@
                 show: false,
             },
             grid: {
-                right: 190
+                right: 0,
+                left: 0,
+                top: 0,
+                bottom: 0,
             },
             tooltip: {show: false},
-            // legend: {show: false}
+             legend: {show: false},
             series: seriesList
         };
         myChart.setOption(option);
